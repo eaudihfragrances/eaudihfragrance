@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Brand - Fragrances</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefcfb;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url("https://images.unsplash.com/photo-1505691723518-36a4be02f32a") center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    button {
+      background: #000;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Fragrance Brand</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h1>Luxury Scents, Timeless Elegance</h1>
+    <p>Discover our exclusive fragrance collection</p>
+  </div>
+
+  <section class="section" id="shop">
+    <h2>Our Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552" alt="Fragrance 1">
+        <h3>Rose Essence</h3>
+        <p>$49.99</p>
+        <button onclick="window.location.href='https://wa.me/1234567890'">Order Now</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1583947215259-38e4c7b89f81" alt="Fragrance 2">
+        <h3>Ocean Breeze</h3>
+        <p>$59.99</p>
+        <button onclick="window.location.href='https://wa.me/1234567890'">Order Now</button>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1512850181-1c623cb95ab6" alt="Fragrance 3">
+        <h3>Vanilla Musk</h3>
+        <p>$54.99</p>
+        <button onclick="window.location.href='https://wa.me/1234567890'">Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>We craft unique fragrances that tell stories. Our perfumes are made with the finest natural ingredients, designed to evoke timeless emotions and memories.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: yourbrand@email.com</p>
+    <p>Instagram: @yourbrand</p>
+    <p>WhatsApp: <a href="https://wa.me/1234567890">Chat with us</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Fragrance Brand. All rights reserved.</p>
+  </footer>
+</body>
+</html>
